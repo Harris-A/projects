@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+.header{
+    background: rgba(0,120,120, 0.8) url("../img/parrots.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.header-text{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 15% 0;
+}
+
+.header-text-items{
+    color: #fff;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    width: 50%;
+}
+
+#welcome{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+
+.header-text-items #banner-text{
+    color: #fff;
+    margin: auto;
+    line-height: 2;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+        
+}
+
+/*------SECTION TWO-----*/
+
+#section-two{
+    padding:50px;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#header-two{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #315a6b;
+}
+
+#cta-text{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+    color: #238BAA;
+}
+
+img.img-thumbnail{
+    margin: 0;
+    border-style: none;
+}
+
+/*---Email form----*/
+input[type=email]{
+    width:100%;
+    height: 60px;
+    box-sizing: border-box;
+    border: solid 2px #50e3c2;
+    border-radius: 50px;
+}
+
+input::placeholder{
+    color: #50e3c2;
+    text-align: center;
+}
+
+input#email:active {
+    margin: 20px 20px 20px 20px;
+    width:30em;
+    height:60px;
+    text-align: center;
+    border: solid 2px #ff0089;
+    border-radius: 50px;
+}
+
+button#submit{
+    margin: 20px;
+    border-style: none;
+    border-radius: 40px;
+    width:50%;
+    height: 50px;
+    background-color: #238baa;
+    background-image: linear-gradient(to right, #238baa , #50e3c2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:#fff;
+    font-family: 'Staatliches', cursive;
+    
+}
+
+img.image-thumbnail{
+    margin-top: 50px;
+}
+
+/*----SECTION THREE----*/
+
+#section-three{
+    background: rgba(0,120,120, 0.8) url("../img/feathers.png");
+    width: 100%;
+    min-height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#cta{
+    color: #fff;
+    font-family: 'Staatliches', cursive;
+    font-size: 46px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(50%);
+    max-width: 300px;
+}
+
+p{
+    color: #fff;
+    font-family: 'Rambla', sans-serif;
+}
